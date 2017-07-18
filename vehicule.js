@@ -3,6 +3,7 @@ Vehicule = function(modele, kilometrage, moteur, couleur) {
     this.kilometrageVehicule = kilometrage;
     this.moteurVehicule = moteur;
     this.couleurVehicule= couleur;
+    this.colorOfVehicule= color;
     this.voyage = function(input) {
         this.kilometrageVehicule += input;
     }
